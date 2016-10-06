@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('BarbsCtrl', function($scope, $filter, $timeout,
+.controller('ChatCtrl', function($scope, $filter, $timeout,
   $ionicScrollDelegate, $ionicLoading, LUIS) {
   $scope.messages = [];
   var responseData;
