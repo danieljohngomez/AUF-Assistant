@@ -1,0 +1,43 @@
+{
+  "None": {
+    "response": "Sorry I can't understand that. Try asking other questions."
+  },
+  "GoToWebsite": {
+    "response": "I'm redirecting you to AUF's Website.",
+    "parameters": {
+      "url": "http://www.auf.edu.ph/",
+      "urlMobile": "http://www.auf.edu.ph/"
+    }
+  },
+  "GoToFacebook": {
+    "response": "I'm redirecting you to AUF's Facebook Page.",
+    "parameters": {
+      "url": "https://www.facebook.com/angelesuniversity/",
+      "urlMobile": "fb://page/216032963896"
+    }
+  },
+  "HowToWifi": {
+    "response": "You can register your device at MISS office located at IT Building 3rd floor to access the internet services of AUF."
+  },
+  "GetFounder": {
+    "response": "The founder of AUF is Dr. Barbara Yap Angeles. She was born on December 4, 1907."
+  },
+  "GetPresident": {
+    "response": "The university is Dr. Joseph Emmanuel L. Angeles. You can find his office on the 2nd floor of A building."
+  },
+  "GetCoreValues": {
+    "response": "The core values of AUF are Mabuti, Magaling, at May Malasakit sa Kapwa."
+  },
+  "Greeting": {
+    "response": "Hi! What can I do for you?"
+  },
+  "Thanks": {
+    "response": "Glad that I could help."
+  },
+  "Features": {
+    "response": "I am trained to answer AUF-related questions. Try asking who is the founder of AUF or command me to go to AUF website."
+  },
+  "GetDevelopers": {
+    "response": "I was made by by a team of 3 BSCS4 students namely: Daniel John Gomez, Josel Jesus Pineda, and Jerimie Romero."
+  }
+}
