@@ -16,6 +16,13 @@
       "urlMobile": "fb://page/216032963896"
     }
   },
+  "GoToSchoolBliz": {
+    "response": "I'm redirecting you to AUF SchoolBliz.",
+    "parameters": {
+      "url": "http://sblive.auf.edu.ph:8080/",
+      "urlMobile": "http://sblive.auf.edu.ph:8080/"
+    }
+  },
   "HowToWifi": {
     "response": "You can register your device at MISS office located at IT Building 3rd floor to access the internet services of AUF."
   },

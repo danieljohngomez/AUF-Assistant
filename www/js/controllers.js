@@ -5,6 +5,7 @@ angular.module('starter.controllers', [])
   $scope.messages = [];
   var responseData;
   var isIOS = ionic.Platform.isWebView() && ionic.Platform.isIOS();
+  var isMobile = ionic.Platform.isWebView();
 
   $scope.sendMessage = function(message, isUser = true) {
     var d = new Date();
@@ -22,11 +23,29 @@ angular.module('starter.controllers', [])
         $scope.sendMessage(responseData[intent].response, false);
 
         if (intent == 'GoToWebsite' || intent == 'GoToFacebook') {
-          var url = ionic.Platform.isWebView() ?
-            responseData[intent].parameters.urlMobile :
+          var url = isMobile ? responseData[intent].parameters.urlMobile :
             responseData[intent].parameters.url;
           window.open(url, '_system', 'location=yes');
         }
+
+        if (intent == 'GoToSchoolBliz') {
+          var openUrl = function() {
+            window.open(responseData[intent].parameters.url, '_system', 'location=yes');
+          }
+          if (isMobile) {
+            var sApp = startApp.set({
+              "action": "ACTION_MAIN",
+              "category": "CATEGORY_DEFAULT",
+              "package": "com.aufmschoolbliz.app"
+            });
+
+            sApp.start(function() {}, function(error) {
+              openUrl();
+            });
+          } else
+            openUrl();
+        }
+
       });
     }
 
