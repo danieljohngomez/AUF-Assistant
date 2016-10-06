@@ -46,5 +46,11 @@
   },
   "GetDevelopers": {
     "response": "I was made by by a team of 3 BSCS4 students namely: Daniel John Gomez, Josel Jesus Pineda, and Jerimie Romero."
+  },
+  "GetLocation": {
+    "response": "AUF is located at Manuel Roxas St, Angeles, 2009 Pampanga, Philippines."
+  },
+  "GetContact": {
+    "response": "You can reach AUF at (045) 322 8876"
   }
 }
