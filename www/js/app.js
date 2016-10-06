@@ -35,7 +35,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     .state('tab', {
     url: '/tab',
     abstract: true,
-    templateUrl: 'templates/tabs.html'
+    templateUrl: function() {
+      if (ionic.Platform.isAndroid()) {
+            return  "templates/tabs-android.html";
+        }
+        return "templates/tabs-ios.html";
+    }
   })
 
   // Each tab has its own nav history stack:
