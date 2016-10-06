@@ -1,6 +1,6 @@
 {
   "None": {
-    "response": "Sorry I can't understand that. Try other questions or ask me what can I do."
+    "response": "Sorry I can't understand that. Try other questions or ask me what I can do."
   },
   "GoToWebsite": {
     "response": "I'm redirecting you to AUF website.",
@@ -42,7 +42,7 @@
     "response": "Glad that I could help."
   },
   "Features": {
-    "response": "I am trained to answer AUF-related questions. Try asking who is the founder of AUF or command me to go to AUF website."
+    "response": "I am trained to answer AUF-related questions such as \n1. How do I access the internet inside AUF? \n2. What is the address of AUF? \n3. What is the contact number of AUF? \n\n I can also perform some commands like open AUF Facebook page, AUF website, and AUF SchoolBliz website/app."
   },
   "GetDevelopers": {
     "response": "I was made by by a team of 3 BSCS4 students namely: Daniel John Gomez, Josel Jesus Pineda, and Jerimie Romero."

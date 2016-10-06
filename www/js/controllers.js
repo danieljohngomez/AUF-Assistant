@@ -76,7 +76,7 @@ angular.module('starter.controllers', [])
   LUIS.getResponseData()
     .then(function(json) {
       $ionicLoading.hide();
-      $scope.sendMessage("Hi! I'm Barbs! You ask me anything about AUF. Try asking what can I do.", false);
+      $scope.sendMessage("Hi! I'm Barbs, the AUF Assistant. You ask me anything about AUF. Try asking what I can do.", false);
       responseData = json.data;
     }, function(error) {
       $ionicLoading.show({
