@@ -1,16 +1,16 @@
 {
   "None": {
-    "response": "Sorry I can't understand that. Try asking other questions."
+    "response": "Sorry I can't understand that. Try other questions or ask me what can I do."
   },
   "GoToWebsite": {
-    "response": "I'm redirecting you to AUF's Website.",
+    "response": "I'm redirecting you to AUF website.",
     "parameters": {
       "url": "http://www.auf.edu.ph/",
       "urlMobile": "http://www.auf.edu.ph/"
     }
   },
   "GoToFacebook": {
-    "response": "I'm redirecting you to AUF's Facebook Page.",
+    "response": "I'm redirecting you to AUF Facebook page.",
     "parameters": {
       "url": "https://www.facebook.com/angelesuniversity/",
       "urlMobile": "fb://page/216032963896"
